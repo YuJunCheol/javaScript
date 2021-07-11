@@ -1,0 +1,6 @@
+1. 크롬 설치
+
+2. Visual Code 설치
+
+3. 크롬의 about:blank를 사용하여 코딩
+
