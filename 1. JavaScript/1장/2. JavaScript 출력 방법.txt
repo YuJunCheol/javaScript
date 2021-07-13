@@ -1,5 +1,0 @@
-1. alert("....") -> 알림창 출력
-
-2. document.body.innerHTNL = "..." -> 웹 화면 출력 방법
-
-3. console.log("....") -> 콘솔 로그 출력 방법
