@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+   <title></title>
+</head>
+<body>
+    <script>
+
+        // 일정한 시간 이후에 실행 되도록 하는 내장함수.
+        setTimeout(() => {
+            console.log("1초 후에 실행됩니다.")
+        }, 1 * 1000);
+        
+        let count = 0;
+        // Interval : 간격, 정해진 간격이후에 실행되도록 하는 내장함수.
+        setInterval(() => {
+            console.log("1초마다 실행됩니다("+count+")번째");
+            count++;
+        },1*1000);
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+<head>
+    <title></title>
+</head>
+<body>
+    <script>
+        //배열 선언
+        let numbers = [0,1,2,3,4,5,6,7,8,9]
+        
+        // 배열 매소드를 연속적으로 사용합니다.
+
+        numbers
+            .filter((value) => value % 2 === 0) // 배열을 리턴.
+            .map((value) => value * value) // 해당 index의 값을 제곱한다.
+            .forEach((value) => { // 각 index를 한번에 하나씩 
+                console.log(value)
+            })
+    </script>
+</body>
+</html>
