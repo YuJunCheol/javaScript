@@ -1,0 +1,12 @@
+css의 구성
+
+선택자 { 프로퍼티 : 값; }
+es)
+sapn { color : red; }
+
+css 적용하는 3가지 방법
+
+- inline
+- internal
+- external
+
