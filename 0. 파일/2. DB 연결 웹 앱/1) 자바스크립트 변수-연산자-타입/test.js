@@ -1,9 +1,6 @@
-function run() {
-    setTimeout(function() {
-        var msg = "hello codesquad";
-        console.log(msg);
-
-    },2000);
-}
-
-run();
+var oReq = new XMLHttpRequest();
+oReq.addEventListener("load",function() {
+    console.log(this.responseText);
+});
+oReq.open("GET", "./json.txt");
+oReq.send();
