@@ -139,7 +139,7 @@ function ajax(data) {
     * ASP에 대항하기 위하여 1999년 썬마이크로시스템즈에서 JSP를 발표
     * JSP는 실제로 서블릿 기술을 사용.
 - 영상 정리
-    간단한 jsp 실습h
+    간단한 jsp 실습
 
 @@@@@@@@@@@@ JSP life cycle
 
@@ -187,3 +187,18 @@ URL이 변경되지 않음.
 
 
 
+@@@@@@@@@@@@ Scope
+4가지 Scope 
+- Application
+- Session
+- Request
+- Page
+
+@@@@@@@@@@@ Page Scope
+- JSP 페이지에서 pageContext 라는 내장객체로 사용가능.
+- 페이지가 이용될때까지만 사용.
+- forward가 될경우 해당 Page scope에 지정된 변수는 사용할 수 없다.
+- 마치 지역변수처럼 사용된다.
+
+@@@@@@@@@@@@ Request Scope
+- http요청을 WAS가 받아 웹브라우저에게 응답할 때까지 변수값을 유지하고자 할 경우 사용.
